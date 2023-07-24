@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Compendium Chronicles of Aetheria</name>
+		<update version="1.0">
+			<file name="Compendium Chronicles of Aetheria.index" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/Compendium%20Chronicles%20of%20Aetheria.index" />
+		</update>
+	</info>
+	<files>
+		<file name="enhanced-true-strike.xml" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/enhanced-true-strike.xml" />
+		<file name="Hell Bot.xml" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/Hell%20Bot.xml" />
+	</files>
+</index>
