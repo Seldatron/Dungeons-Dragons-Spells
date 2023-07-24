@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Dungeons n Dragons Spells</name>
+    <version>1.0</version>
+    <author>Seldatron</author>
+    <description>A collection of custom spells for Dungeons n Dragons.</description>
+  </info>
+
+  <!-- Spell: Enhanced True Strike -->
+  <spell>
+    <name>Enhanced True Strike</name>
+    <level>1</level>
+    <school>Divination</school>
+    <castingTime>1 bonus action</castingTime>
+    <range>Self</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <description>
+      <p>You extend your hand and point a finger at a target in range. Your insight into the target's defenses grants you an advantage on your next attack roll against it. During the spell's duration, your eyes briefly gain an otherworldly glow, signifying your enhanced focus.</p>
+      <p>If you make an attack roll against the target on the same turn as you cast this spell, you gain advantage on the roll. Additionally, if the target has any damage resistances, your next attack against it ignores those resistances.</p>
+      <p><b>At Higher Levels:</b> When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 1 minute for each slot level above 1st.</p>
+    </description>
+  </spell>
+
+  <!-- Other spells, races, classes, etc. can be defined here -->
+
+</elements>
