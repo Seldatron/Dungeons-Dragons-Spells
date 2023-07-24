@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <!-- Hell Bot Race -->
+  <element name="Hell Bot" type="Race" source="Aurora: Custom Races" id="ID_CUSTOM_RACE_HELL_BOT">
+    <description>
+      <p>The Hell Bots are a unique race of beings forged in the depths of the Nine Hells. Infused with infernal energy, they possess mechanical bodies and a burning will that sets them apart from other races.</p>
+      <h4>HELLISH RESILIENCE</h4>
+      <p>Thanks to their infernal origins, Hell Bots have resistance to fire damage, and they are immune to being poisoned.</p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="keywords">hell bot</set>
+      <set name="abilityScoreIncrease">2 Constitution, 1 Strength</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+    </rules>
+  </element>
+</elements>
