@@ -9,5 +9,7 @@
 	<files>
 		<file name="enhanced-true-strike.xml" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/enhanced-true-strike.xml" />
 		<file name="Hell Bot.xml" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/Hell%20Bot.xml" />
+		<file name="Custom Weapons.xml" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/Custom%20Weapons.xml" />
+		<file name="CustomItems.xml" url="https://raw.githubusercontent.com/Seldatron/Dungeons-Dragons-Spells/main/CustomItems.xml" />
 	</files>
 </index>
