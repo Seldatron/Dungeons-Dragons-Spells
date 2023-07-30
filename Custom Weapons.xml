@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <elements>
+    <element name="Masterwork Greataxe" type="Weapon" source="Aurora: Custom Weapons" id="ID_CUSTOM_WEAPON_MGREATAXE">
+      <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+      <description>
+        <p>
+          The Masterwork Greataxe has a long handle made from sturdy, polished wood, wrapped in high-quality leather for a comfortable grip. Its head is forged from a single piece of superior-grade steel, sharpened to a razor edge, and adorned with intricate engravings.
+          The weight and balance of the weapon are carefully calibrated, allowing for powerful swings with minimal effort.
+          When wielded by a skilled warrior, the Masterwork Greataxe becomes an extension of their body, enabling them to cleave through enemies with ease. Its exceptional design and perfect execution make it a weapon highly sought after by seasoned adventurers and warriors alike.
+        </p>
+      </description>
+      <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">300</set>
+        <set name="weight" lb="10">10 lb.</set>
+        <set name="slot">twohand</set>
+        <set name="damage" type="slashing" bonus="+1">1d12</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE</set>
+      </setters>
+    </element>
+
+    
+    <element name="Masterwork Flail" type="Weapon" source="Aurora: Custom Weapons" id="ID_CUSTOM_WEAPON_MFlail">
+      <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+      <description>
+        <p>
+          The craftsmanship of the Masterwork Longbow is flawless, with every curve and contour painstakingly shaped for optimum performance. The grip is wrapped in soft, supple leather, ensuring a comfortable hold and steady aim for the archer. 
+          The bow's overall weight and balance are perfectly calibrated, making it an extension of the archer's body.
+          When an arrow is nocked and drawn on the Masterwork Longbow, it feels almost weightless, yet the tension is palpable. Skilled archers who wield this magnificent weapon can send arrows flying with incredible force and accuracy, striking their targets with deadly precision.
+
+        </p>
+      </description>
+      <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">100</set>
+        <set name="weight" lb="4">2 lb.</set>
+        <set name="slot">onehand</set>
+        <set name="damage" type="bludgeoning" bonus="+1">1d8</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL</set>
+      </setters>
+    </element>
+
+    <element name="Masterwork Rapier" type="Weapon" source="Aurora: Custom Weapons" id="ID_CUSTOM_WEAPON_MRapier">
+      <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+      <description>
+        <p>
+          The Masterwork Rapier is a slender and lightweight weapon, exuding sophistication and grace. Its blade is made from high-quality steel, meticulously honed to a sharp point that allows for precise thrusting attacks. 
+          The blade's keen edge can easily find the gaps in an opponent's armor, making it a favored weapon against heavily armored foes.
+          The hilt of the Masterwork Rapier is beautifully decorated, featuring ornate engravings and a comfortable grip wrapped in fine leather or elegant silk. 
+          The crossguard and pommel are usually adorned with intricate designs, giving the weapon a touch of artistic flair.
+          Due to its finesse property, the Masterwork Rapier can be effectively wielded by characters who rely on agility and precision rather than brute strength. 
+          It allows for quick, nimble movements, making it ideal for parrying and riposting in a duel or skirmish.
+          In the hands of a skilled duelist, the Masterwork Rapier becomes an extension of their body, an instrument of deadly finesse and deadly efficiency. Its lightweight design and exceptional balance allow for swift strikes and rapid footwork, making it an ideal weapon for one-on-one combat.
+        </p>
+      </description>
+      <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">25</set>
+        <set name="weight" lb="2">2 lb.</set>
+        <set name="slot">onehand</set>
+        <set name="damage" type="piercing" bonus="+1">1d8</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+      </setters>
+    </element>
+    
+    <!--Ranged-->
+    <element name="Masterwork Longbow" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_LONGBOW">
+      <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+      <description>
+        <p>
+          The Masterwork Longbow is a thing of beauty, made from the finest materials available. Its long and elegant limbs are constructed from a blend of rare and resilient woods, specially selected for their strength and flexibility. 
+          The bowstring is made from tightly woven silk threads, expertly twisted to provide maximum tension and power when drawn.
+          The craftsmanship of the Masterwork Longbow is flawless, with every curve and contour painstakingly shaped for optimum performance. The grip is wrapped in soft, supple leather, ensuring a comfortable hold and steady aim for the archer. 
+          The bow's overall weight and balance are perfectly calibrated, making it an extension of the archer's body.
+          When an arrow is nocked and drawn on the Masterwork Longbow, it feels almost weightless, yet the tension is palpable. Skilled archers who wield this magnificent weapon can send arrows flying with incredible force and accuracy, striking their targets with deadly precision.
+        </p>
+      </description>
+      <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">50</set>
+        <set name="weight" lb="2">2 lb.</set>
+        <set name="slot">twohand</set>
+        <set name="range">150/600</set>
+        <set name="damage" type="piercing" bonus="+1">1d8</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW</set>
+      </setters>
+    </element>
+  </elements>

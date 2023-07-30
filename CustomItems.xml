@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <element name="Arrows of Piercing Ice" type="Item" source="Aurora: Custom Items" id="ID_CUSTOM_Arrows_PIce">
+    <description>
+      <p>These arrows are expertly crafted with a unique blend of magical ice essence and reinforced materials, making them highly effective against heavily armored foes and creatures vulnerable to cold.</p>
+      <p class="indent">
+        Cold Damage: On a successful hit, the arrows deal an additional 1d6 cold damage to the target. This cold damage is perfect for bypassing resistance to non-magical attacks and can be particularly devastating to creatures weak against cold.
+        Hit 2+ Frost Burst: Upon impact, the arrows release a burst of chilling frost in a 10-foot radius. All creatures within this area, including the target hit, must make a Dexterity saving throw. On a failed save, they take an additional 1d4 cold damage and have their movement speed reduced by 10 feet until the end of their next turn. On a successful save, they take half damage and suffer no movement penalty.
+        Hit 3+ Armor Shattering: Arrows of Piercing Ice are specially designed to penetrate even the thickest of armors. When used against heavily armored foes, these arrows gain a +2 bonus to their attack rolls, increasing the chances of hitting the target.
+        Hit 4+ Environmental Interaction: These enchanted arrows can be used creatively in various environments. For instance, firing them at a patch of water or a small pool could cause it to freeze, creating a slippery surface and potentially trapping enemies in ice.
+      </p>
+    </description>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost" currency="gp"></set>
+      <set name="weight" lb="5">5 lb.</set>
+    </setters>
+  </element>
+</elements>
