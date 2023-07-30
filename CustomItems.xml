@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <element name="Arrows of Piercing Ice" type="Item" source="Aurora: Custom Items" id="ID_CUSTOM_Arrows_PIce">
+  <element name="Arrows of Piercing Ice" type="Item" source="Aurora: Custom Items" id="ID_CUSTOM_Item_PIce">
     <description>
       <p>These arrows are expertly crafted with a unique blend of magical ice essence and reinforced materials, making them highly effective against heavily armored foes and creatures vulnerable to cold.</p>
       <p class="indent">
